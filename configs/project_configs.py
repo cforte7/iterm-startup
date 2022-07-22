@@ -12,9 +12,9 @@ clarity = TabConfig(
     ],
 )
 
-TIMBER_DIR = "~/Dev/timbersaw/"
+TIMBER_DIR = "~/Dev/zeus/"
 timbersaw = TabConfig(
-    title="timbersaw",
+    title="zeus API",
     dir=TIMBER_DIR,
     sessions=[
         SessionConfig(purpose="Run FASTAPI server.", commands=["make run-dev"]),
